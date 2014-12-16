@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource>
 
+@property (nonatomic, strong) NSMutableArray *blogPosts;
+
 
 @end
 
