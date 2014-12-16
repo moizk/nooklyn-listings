@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>52578379-1D9C-41A6-93AC-E3DE44E3BC71</string>
+	<key>IDESourceControlProjectName</key>
+	<string>nooklyn-listings</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>19550BA43349B78401C09CA5E2C41C213BD94FAC</key>
+		<string>https://github.com/moizk/nooklyn-listings.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>nooklyn-listings.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>19550BA43349B78401C09CA5E2C41C213BD94FAC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/moizk/nooklyn-listings.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>19550BA43349B78401C09CA5E2C41C213BD94FAC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>19550BA43349B78401C09CA5E2C41C213BD94FAC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>nooklyn-listings</string>
+		</dict>
+	</array>
+</dict>
+</plist>

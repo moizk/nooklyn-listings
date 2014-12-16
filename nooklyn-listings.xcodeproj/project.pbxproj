@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C85BCDEF1A40BCC900830E6B /* Listings.m in Sources */ = {isa = PBXBuildFile; fileRef = C85BCDEE1A40BCC900830E6B /* Listings.m */; };
 		C8CF52BC1A3FEB3800A1A409 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CF52BB1A3FEB3800A1A409 /* main.m */; };
 		C8CF52BF1A3FEB3800A1A409 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CF52BE1A3FEB3800A1A409 /* AppDelegate.m */; };
 		C8CF52C21A3FEB3800A1A409 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CF52C11A3FEB3800A1A409 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C85BCDED1A40BCC900830E6B /* Listings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Listings.h; sourceTree = "<group>"; };
+		C85BCDEE1A40BCC900830E6B /* Listings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Listings.m; sourceTree = "<group>"; };
 		C8CF52B61A3FEB3800A1A409 /* nooklyn-listings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nooklyn-listings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8CF52BA1A3FEB3800A1A409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8CF52BB1A3FEB3800A1A409 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				C8CF52C61A3FEB3800A1A409 /* Images.xcassets */,
 				C8CF52C81A3FEB3800A1A409 /* LaunchScreen.xib */,
 				C8CF52B91A3FEB3800A1A409 /* Supporting Files */,
+				C85BCDED1A40BCC900830E6B /* Listings.h */,
+				C85BCDEE1A40BCC900830E6B /* Listings.m */,
 			);
 			path = "nooklyn-listings";
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				C8CF52C21A3FEB3800A1A409 /* ViewController.m in Sources */,
 				C8CF52BF1A3FEB3800A1A409 /* AppDelegate.m in Sources */,
+				C85BCDEF1A40BCC900830E6B /* Listings.m in Sources */,
 				C8CF52BC1A3FEB3800A1A409 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +418,7 @@
 				C8CF52DB1A3FEB3800A1A409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8CF52DC1A3FEB3800A1A409 /* Build configuration list for PBXNativeTarget "nooklyn-listingsTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				C8CF52DE1A3FEB3800A1A409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
