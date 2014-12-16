@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8CF52BC1A3FEB3800A1A409 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CF52BB1A3FEB3800A1A409 /* main.m */; };
+		C8CF52BF1A3FEB3800A1A409 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CF52BE1A3FEB3800A1A409 /* AppDelegate.m */; };
+		C8CF52C21A3FEB3800A1A409 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CF52C11A3FEB3800A1A409 /* ViewController.m */; };
+		C8CF52C51A3FEB3800A1A409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8CF52C31A3FEB3800A1A409 /* Main.storyboard */; };
+		C8CF52C71A3FEB3800A1A409 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8CF52C61A3FEB3800A1A409 /* Images.xcassets */; };
+		C8CF52CA1A3FEB3800A1A409 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8CF52C81A3FEB3800A1A409 /* LaunchScreen.xib */; };
+		C8CF52D61A3FEB3800A1A409 /* nooklyn_listingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CF52D51A3FEB3800A1A409 /* nooklyn_listingsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8CF52D01A3FEB3800A1A409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8CF52AE1A3FEB3800A1A409 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8CF52B51A3FEB3800A1A409;
+			remoteInfo = "nooklyn-listings";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8CF52B61A3FEB3800A1A409 /* nooklyn-listings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nooklyn-listings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8CF52BA1A3FEB3800A1A409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8CF52BB1A3FEB3800A1A409 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8CF52BD1A3FEB3800A1A409 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C8CF52BE1A3FEB3800A1A409 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C8CF52C01A3FEB3800A1A409 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C8CF52C11A3FEB3800A1A409 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C8CF52C41A3FEB3800A1A409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8CF52C61A3FEB3800A1A409 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C8CF52C91A3FEB3800A1A409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C8CF52CF1A3FEB3800A1A409 /* nooklyn-listingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nooklyn-listingsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8CF52D41A3FEB3800A1A409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8CF52D51A3FEB3800A1A409 /* nooklyn_listingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nooklyn_listingsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8CF52B31A3FEB3800A1A409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8CF52CC1A3FEB3800A1A409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8CF52AD1A3FEB3800A1A409 = {
+			isa = PBXGroup;
+			children = (
+				C8CF52B81A3FEB3800A1A409 /* nooklyn-listings */,
+				C8CF52D21A3FEB3800A1A409 /* nooklyn-listingsTests */,
+				C8CF52B71A3FEB3800A1A409 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8CF52B71A3FEB3800A1A409 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8CF52B61A3FEB3800A1A409 /* nooklyn-listings.app */,
+				C8CF52CF1A3FEB3800A1A409 /* nooklyn-listingsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8CF52B81A3FEB3800A1A409 /* nooklyn-listings */ = {
+			isa = PBXGroup;
+			children = (
+				C8CF52BD1A3FEB3800A1A409 /* AppDelegate.h */,
+				C8CF52BE1A3FEB3800A1A409 /* AppDelegate.m */,
+				C8CF52C01A3FEB3800A1A409 /* ViewController.h */,
+				C8CF52C11A3FEB3800A1A409 /* ViewController.m */,
+				C8CF52C31A3FEB3800A1A409 /* Main.storyboard */,
+				C8CF52C61A3FEB3800A1A409 /* Images.xcassets */,
+				C8CF52C81A3FEB3800A1A409 /* LaunchScreen.xib */,
+				C8CF52B91A3FEB3800A1A409 /* Supporting Files */,
+			);
+			path = "nooklyn-listings";
+			sourceTree = "<group>";
+		};
+		C8CF52B91A3FEB3800A1A409 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8CF52BA1A3FEB3800A1A409 /* Info.plist */,
+				C8CF52BB1A3FEB3800A1A409 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8CF52D21A3FEB3800A1A409 /* nooklyn-listingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8CF52D51A3FEB3800A1A409 /* nooklyn_listingsTests.m */,
+				C8CF52D31A3FEB3800A1A409 /* Supporting Files */,
+			);
+			path = "nooklyn-listingsTests";
+			sourceTree = "<group>";
+		};
+		C8CF52D31A3FEB3800A1A409 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8CF52D41A3FEB3800A1A409 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8CF52B51A3FEB3800A1A409 /* nooklyn-listings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8CF52D91A3FEB3800A1A409 /* Build configuration list for PBXNativeTarget "nooklyn-listings" */;
+			buildPhases = (
+				C8CF52B21A3FEB3800A1A409 /* Sources */,
+				C8CF52B31A3FEB3800A1A409 /* Frameworks */,
+				C8CF52B41A3FEB3800A1A409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nooklyn-listings";
+			productName = "nooklyn-listings";
+			productReference = C8CF52B61A3FEB3800A1A409 /* nooklyn-listings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8CF52CE1A3FEB3800A1A409 /* nooklyn-listingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8CF52DC1A3FEB3800A1A409 /* Build configuration list for PBXNativeTarget "nooklyn-listingsTests" */;
+			buildPhases = (
+				C8CF52CB1A3FEB3800A1A409 /* Sources */,
+				C8CF52CC1A3FEB3800A1A409 /* Frameworks */,
+				C8CF52CD1A3FEB3800A1A409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8CF52D11A3FEB3800A1A409 /* PBXTargetDependency */,
+			);
+			name = "nooklyn-listingsTests";
+			productName = "nooklyn-listingsTests";
+			productReference = C8CF52CF1A3FEB3800A1A409 /* nooklyn-listingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8CF52AE1A3FEB3800A1A409 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Moiz;
+				TargetAttributes = {
+					C8CF52B51A3FEB3800A1A409 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C8CF52CE1A3FEB3800A1A409 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C8CF52B51A3FEB3800A1A409;
+					};
+				};
+			};
+			buildConfigurationList = C8CF52B11A3FEB3800A1A409 /* Build configuration list for PBXProject "nooklyn-listings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8CF52AD1A3FEB3800A1A409;
+			productRefGroup = C8CF52B71A3FEB3800A1A409 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8CF52B51A3FEB3800A1A409 /* nooklyn-listings */,
+				C8CF52CE1A3FEB3800A1A409 /* nooklyn-listingsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8CF52B41A3FEB3800A1A409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CF52C51A3FEB3800A1A409 /* Main.storyboard in Resources */,
+				C8CF52CA1A3FEB3800A1A409 /* LaunchScreen.xib in Resources */,
+				C8CF52C71A3FEB3800A1A409 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8CF52CD1A3FEB3800A1A409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8CF52B21A3FEB3800A1A409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CF52C21A3FEB3800A1A409 /* ViewController.m in Sources */,
+				C8CF52BF1A3FEB3800A1A409 /* AppDelegate.m in Sources */,
+				C8CF52BC1A3FEB3800A1A409 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8CF52CB1A3FEB3800A1A409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CF52D61A3FEB3800A1A409 /* nooklyn_listingsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8CF52D11A3FEB3800A1A409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8CF52B51A3FEB3800A1A409 /* nooklyn-listings */;
+			targetProxy = C8CF52D01A3FEB3800A1A409 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8CF52C31A3FEB3800A1A409 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8CF52C41A3FEB3800A1A409 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8CF52C81A3FEB3800A1A409 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8CF52C91A3FEB3800A1A409 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8CF52D71A3FEB3800A1A409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8CF52D81A3FEB3800A1A409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8CF52DA1A3FEB3800A1A409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "nooklyn-listings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8CF52DB1A3FEB3800A1A409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "nooklyn-listings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C8CF52DD1A3FEB3800A1A409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "nooklyn-listingsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nooklyn-listings.app/nooklyn-listings";
+			};
+			name = Debug;
+		};
+		C8CF52DE1A3FEB3800A1A409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "nooklyn-listingsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nooklyn-listings.app/nooklyn-listings";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8CF52B11A3FEB3800A1A409 /* Build configuration list for PBXProject "nooklyn-listings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8CF52D71A3FEB3800A1A409 /* Debug */,
+				C8CF52D81A3FEB3800A1A409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8CF52D91A3FEB3800A1A409 /* Build configuration list for PBXNativeTarget "nooklyn-listings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8CF52DA1A3FEB3800A1A409 /* Debug */,
+				C8CF52DB1A3FEB3800A1A409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C8CF52DC1A3FEB3800A1A409 /* Build configuration list for PBXNativeTarget "nooklyn-listingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8CF52DD1A3FEB3800A1A409 /* Debug */,
+				C8CF52DE1A3FEB3800A1A409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8CF52AE1A3FEB3800A1A409 /* Project object */;
+}
