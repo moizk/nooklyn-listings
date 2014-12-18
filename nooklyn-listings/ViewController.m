@@ -31,6 +31,9 @@
     for (NSDictionary *bpDictionary in blogPostsArray) {
         Listings *blogPost = [Listings blogPostWithTitle:[bpDictionary objectForKey:@"title"]];
         blogPost.author = [bpDictionary objectForKey:@"author"];
+        blogPost.price = [bpDictionary objectForKey:@"price"];
+        blogPost.beds = [bpDictionary objectForKey:@"beds"];
+        blogPost.baths = [bpDictionary objectForKey:@"baths"];
         blogPost.thumbnail = [bpDictionary objectForKey:@"thumbnail"];
         blogPost.date = [bpDictionary objectForKey:@"date"];
         blogPost.url = [NSURL URLWithString:[bpDictionary objectForKey:@"url"]];
@@ -62,8 +65,14 @@
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
     Listings *blogPost = [self.blogPosts objectAtIndex:indexPath.row];
-    UILabel *label = (UILabel *)[cell viewWithTag:100];
-    label.text = blogPost.title;
+    UILabel *price = (UILabel *)[cell viewWithTag:100];
+    price.text = blogPost.price;
+    
+    UILabel *beds = (UILabel *)[cell viewWithTag:101];
+    beds.text = blogPost.beds;
+    
+    UILabel *baths = (UILabel *)[cell viewWithTag:102];
+    baths.text = blogPost.baths;
     
     NSData *imageData = [NSData dataWithContentsOfURL:blogPost.thumbnailURL];
     UIImageView *photo = (UIImageView *)[cell viewWithTag:123];

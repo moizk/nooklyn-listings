@@ -16,6 +16,11 @@
 @property (nonatomic, strong) NSString *date;
 @property (nonatomic, strong) NSURL *url;
 
+@property (nonatomic, strong) NSString *price;
+@property (nonatomic, strong) NSString *beds;
+@property (nonatomic, strong) NSString *baths;
+
+
 // Designated initializer
 - (id) initWithTitle:(NSString *)title;
 + (id) blogPostWithTitle:(NSString *)title;
