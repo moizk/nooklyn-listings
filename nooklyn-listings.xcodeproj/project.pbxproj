@@ -173,6 +173,7 @@
 				TargetAttributes = {
 					C8CF52B51A3FEB3800A1A409 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = VWKBDST4AP;
 					};
 					C8CF52CE1A3FEB3800A1A409 = {
 						CreatedOnToolsVersion = 6.1.1;
