@@ -102,7 +102,7 @@
                                     <constraint firstAttribute="height" constant="40" id="njI-Lp-Ns0"/>
                                 </constraints>
                             </imageView>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oia-ax-OIE">
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oia-ax-OIE">
                                 <rect key="frame" x="0.0" y="951" width="600" height="49"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -110,8 +110,9 @@
                                 </constraints>
                                 <items>
                                     <tabBarItem systemItem="search" id="kmr-51-XAm"/>
-                                    <tabBarItem title="Neighborhoods" id="gka-Q8-dCn"/>
-                                    <tabBarItem title="Agents" image="TitleBarLogo" id="4CI-Mh-NnL"/>
+                                    <tabBarItem title="Browse" id="ok3-Nx-awe"/>
+                                    <tabBarItem systemItem="featured" id="gka-Q8-dCn"/>
+                                    <tabBarItem title="Neighborhoods" image="TitleBarLogo" id="4CI-Mh-NnL"/>
                                     <tabBarItem systemItem="favorites" id="a5k-bF-oW8"/>
                                 </items>
                             </tabBar>
